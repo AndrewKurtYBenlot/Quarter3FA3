@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Randomizer</title>
+    <link rel="stylesheet" href="FA3.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🍔Rush Hour Eats🍗</h1>
+        <p>🧂See today’s customer count!🍝</p>
+        <button onclick="generateValues()">🍽Spin the Meal</button>
+		<h2>Restaurant Customer Count</h2>
+        <div class="card-container">
+		
+            <div class="card">
+                <div>McDonalds</div>
+                <hr>
+                <div class="number" id="mcd"></div>
+            </div>
+			
+            <div class="card">
+                <div>KFC</div>
+                <hr>
+                <div class="number" id="kfc"></div>
+            </div>
+			
+            <div class="card">
+                <div>Jollibee</div>
+                <hr>
+                <div class="number" id="joll"></div>
+            </div>
+			
+        </div>
+        <div id="numbers" class="result"></div>
+        <div id="story" class="result"></div>
+
+    </div>
+
+    <script src="FA3.js"></script>
+
+</body>
+</html>
